@@ -1,0 +1,22 @@
+.component {
+    all: unset;
+    background-color: var(--darkElements) !important;
+    color: var( --white);
+    height: 45px;
+    min-width: 350px;
+    cursor:text;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px var(--darkElements);
+    margin-top: 25px;
+    margin-left: 50px;
+    padding-left: 15px;
+    font-size: 0.8rem;
+  }
+
+.component::placeholder{
+    color:var( --white);
+    font-size: 0.6rem;
+    font-weight: 600;
+    font-family: var(--fontFamily);
+}
+
